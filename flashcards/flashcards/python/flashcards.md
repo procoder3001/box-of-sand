@@ -2116,3 +2116,11 @@ except HttpError as exc:
 **Source example:** [`mlflow/exceptions.py` — `MlflowException` safety guidance](https://github.com/mlflow/mlflow/blob/8ab8acc1ca13995a1d1b37741f94f5a8881e30c2/mlflow/exceptions.py#L68-L96)
 
 ---CARD---
+
+### Front
+When are class methods useful?
+
+### Back
+
+Class methods are useful as alternative constructors or when we want to express logic for getting class attributes wihout repeating the code for 
+all the subclasses
